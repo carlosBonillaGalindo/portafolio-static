@@ -17,7 +17,7 @@ html{
     font-family: 'Poppins', sans-serif;
 }
 
-.home{
+.home-section{
     background-color: var(--black);
     display: flex;
     align-items: center;
@@ -74,7 +74,7 @@ html{
     border: var(--white) 1px solid;;
 }
 @media (min-width : 768px ) {
-    .home{
+    .home-section{
         flex-direction: row;
         height: 100vh;
         margin-top: 0px;

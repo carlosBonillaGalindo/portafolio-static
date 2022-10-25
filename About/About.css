@@ -1,0 +1,128 @@
+:root{
+    --black : #000000;
+    --white : #FFFFFF;
+    --gray : #908787;
+    --light-gray : #d3d3d3;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+.about-section{
+    padding-top: 8rem
+}
+.section-title{
+    font-size: 40px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    max-width: 80%;
+    margin: 0rem auto;
+}
+.section-title > span{
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+.about-container{
+    padding-bottom: 8rem;
+    max-width: 80%;
+    margin: 6rem auto;
+    font-size: var(--md);  
+    border-bottom: var(--gray) 1px solid;
+}
+.about-container:last-of-type{
+    border-bottom: none;
+}
+.about-mainInfo{
+    display: flex;
+    justify-content: center;
+
+}
+.about-extract{
+    width: 60%;
+    margin-right: 8rem;
+    color: var(--gray);
+}
+.about-data{
+    width: 40%;
+}
+.about-data ul li{
+    list-style: none;
+}
+.about-data li label{
+    font-weight: bold;
+    color: var(--black);
+    min-width: 120px;
+    display: inline-block;
+}
+.about-data li span{
+    color: gray;
+}
+
+/*About education*/
+
+.about-title{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 8px;
+    border-bottom: 3px solid var(--black);
+    margin-bottom: 8rem;
+}
+.education-item{
+    display: flex;   
+}
+.education-item:first-of-type{
+    padding-bottom: 4rem;
+    margin-bottom: 4rem;
+    border-bottom: 1px solid var(--gray);
+}
+.education-item p{
+    font-weight: bold;
+    width: 33%;
+}
+.education-item p:last-child{
+    color: var(--gray);
+    font-weight: 400;
+}
+
+/* About Skills */
+
+.about-skills .skills-container {
+    display: flex;
+    
+}
+.skills-container h1{
+    display: inline-block;
+    font-size: large;
+    padding-bottom: 2rem;
+    margin-bottom: 4rem;
+    border-bottom: 1px solid var(--gray);
+}
+.skills-container ul{
+    width: 33%;
+}
+.skills-container ul li{
+    margin-bottom: 12px;
+    list-style: inside;
+}
+.about-skills ul li label{
+    font-weight: bold;
+    color: var(--black);
+    min-width: 100px;
+    display: inline-block;
+}
+.about-skills ul li span{
+    color: gray;
+}
