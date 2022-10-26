@@ -41,21 +41,23 @@ html{
     font-size: var(--md);  
     border-bottom: var(--gray) 1px solid;
 }
+
 .about-container:last-of-type{
     border-bottom: none;
 }
+/* About main Info */
 .about-mainInfo{
     display: flex;
     justify-content: center;
-
+    flex-direction: column;
 }
 .about-extract{
-    width: 60%;
-    margin-right: 8rem;
+    width: 100%;
     color: var(--gray);
 }
 .about-data{
-    width: 40%;
+    width: 100%;
+    margin-top: 4rem;
 }
 .about-data ul li{
     list-style: none;
@@ -81,7 +83,8 @@ html{
     margin-bottom: 8rem;
 }
 .education-item{
-    display: flex;   
+    display: flex;  
+    flex-direction: column; 
 }
 .education-item:first-of-type{
     padding-bottom: 4rem;
@@ -90,7 +93,7 @@ html{
 }
 .education-item p{
     font-weight: bold;
-    width: 33%;
+    width: 100%;
 }
 .education-item p:last-child{
     color: var(--gray);
@@ -101,17 +104,18 @@ html{
 
 .about-skills .skills-container {
     display: flex;
-    
+    flex-direction: column;
 }
 .skills-container h1{
-    display: inline-block;
+    display: block;
     font-size: large;
     padding-bottom: 2rem;
     margin-bottom: 4rem;
+    margin-top: 2rem;
     border-bottom: 1px solid var(--gray);
 }
 .skills-container ul{
-    width: 33%;
+    width: 100%;
 }
 .skills-container ul li{
     margin-bottom: 12px;
@@ -125,4 +129,52 @@ html{
 }
 .about-skills ul li span{
     color: gray;
+}
+
+/* About Pasantias */
+
+.about-interships p:nth-of-type(1){
+    font-weight: bold;
+}
+.about-interships p:nth-of-type(3){
+    margin-top: 8px;
+    color: gray;
+}
+.about-interships p:nth-of-type(4){
+    color: var(--gray);
+}
+
+@media (min-width: 1024px) {
+    /* About MainInfo */
+    .about-mainInfo{
+        flex-direction: row;
+    }
+    .about-extract{
+        width: 60%;
+        margin-right: 8rem;
+        color: var(--gray);
+    }
+    .about-data{
+        width: 40%;
+        margin-top: 0;
+    }
+    /* About education */
+    .education-item{
+        flex-direction: row;   
+    }
+    .education-item p{
+        width: 33%;
+    }
+    /* About skills */
+    .about-skills .skills-container {
+        flex-direction: row;
+    }
+    .skills-container h1{
+        display: inline-block;
+    }
+    .skills-container ul{
+        width: 33%;       
+        margin-top: 0;
+    }
+    
 }
