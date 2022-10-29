@@ -62,8 +62,6 @@ nav ul li a{
 nav ul li a:hover{
     border-bottom: 2px solid var(--white);
 }
-nav ul li a:active{
-    border-bottom: 2px solid var(--white);
-}
+
 
 

@@ -4,11 +4,267 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carlos Daniel Bonilla </title>
-    <link rel="stylesheet" href="">
+    <title>Carlos Bonilla</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./NavBar/NavBar.css">
+    <link rel="stylesheet" href="./Home/Home.css">
+    <link rel="stylesheet" href="./About/About.css">
+    <link rel="stylesheet" href="./Portfolio/Portfolio.css">
+    <link rel="stylesheet" href="./Contact/Contact.css">
+    <link rel="stylesheet" href="./Footer/Footer.css">
 </head>
 <body>
+    <!-- Barra de Navegación -->
+    <nav>
+        <a href="index.html">Carlos Bonilla</a>
+        <ul>
+            <li>
+                <a href="#">Inicio</a>
+            </li>
+            <li>
+                <a href="#">Acerca de</a>
+            </li>
+            <li>
+                <a href="#">Portafolio</a>
+            </li>
+            <li>
+                <a href="#">Contacto</a>
+            </li>
+        </ul>
+        <div class="menu-icon">
+        <a class="menu-icon" href="#">Menu</a>
+    </nav>
+    <!-- Home -->
+    <div class="home-section">
+        <div class="home-description">
+            <h1>Carlos Daniel Bonilla Galindo</h1>
+            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus commodi, sequi illum saepe maiores maxime quaerat corporis ullam placeat dicta velit laborum nostrum dolore. Error ea facere accusantium optio. Repellendus?</p>
+            <button class="primary-button">Descargar CV</button>
+        </div>
+        <div class="home-portrait">
+            <img src="./images/Retrato-blanco.png" alt="Personal-portrait">
+        </div>
+    </div>
+    <!-- About -->
+    <div class="about-section">
+        <p class="section-title">Acerca <span>de</span></p>
+        <div class="about-container about-mainInfo" >    
+            <div class="about-extract">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit magnam at optio, accusamus similique amet! Necessitatibus nemo temporibus ducimus libero dolorem. Quis nisi reiciendis et omnis sit fuga distinctio rem.
+                </p>
+            </div>
+            <div class="about-data">
+                <ul>
+                   <li>
+                    <label>Nacimiento:</label>
+                    <span>26 de junio de 1998</span>
+                   </li> 
+                   <li>
+                    <label >Edad:</label>
+                    <span>24</span>
+                   </li> 
+                   <li>
+                    <label >Ubicación:</label>
+                    <span>Puebla, México</span>
+                   </li> 
+                   <li>
+                    <label >Correo:</label>
+                    <span>bonillagalindocarlos@gmail.com</span>
+                   </li> 
+                   <li>
+                    <label >Teléfono:</label>
+                    <span>2227760822</span>
+                   </li> 
+                   <li>
+                    <label >Website:</label>
+                    <span>www.carlos.com</span>
+                   </li> 
+                </ul>
+            </div>
+        </div>
+        <div class="about-education about-container">
+            <h1 class="about-title">Educación</h1>
+            <div class="education-item">
+                <p>2016 - 2022</p> 
+                <p>Benemérita Universidad Autónoma de Puebla</p>
+                <p>Ingeniería en Ciencias de la Computación </p>    
+            </div>
+            <div class="education-item">
+                <p>2021 - actualidad</p>
+                <p>Platzi</p>
+                <p>Escuela de Desarrollo Web </p>  
+            </div>
+        </div>
+        <div class="about-skills about-container">
+            <h1 class="about-title">Habilidades</h1>
+            <div class="skills-container">
+                <ul>
+                    <h1>Habilidades de Programación</h1>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>GIT ( GitHub )</li>
+                    <li>React</li>
+                </ul>
+                <ul>
+                    <h1>Habilidades Blandas</h1>
+                    <li>Autodidacta</li>
+                    <li>Flexibilidad y adaptación</li>
+                    <li>Facilidad para aprendizaje de nuevas 
+                        habilidades</li>
+                    <li>Lógica-matemática</li>
+                </ul>
+                <ul>
+                    <h1>Idiomas</h1>
+                    <li>
+                        <label >Inglés</label>
+                        <span>Intermedio</span>
+                    </li> 
+                    <li>
+                        <label >Francés</label>
+                        <span>Básico ( 1 año )</span>
+                    </li> 
+                    <li>
+                        <label >Italiano</label>
+                        <span>Básico ( 1 año )</span>
+                    </li> 
+                </ul>
+            </div>
+            
+        </div>
+        <div class="about-container about-interships">
+            <h1 class="about-title">Pasantías</h1>
+            <p>Servicio social</p>
+            <p>Facultad Cs de la Computación BUAP, Puebla</p>
+            <p>Enero 2021 - agosto 2021</p>
+            <p>Desarrollo de bibliotecas Python para la visualización de soluciones de ecuaciones diferenciales ordinarias</p>
+        </div>
+    </div>
+    <!-- Portfolio -->
+    <div class="portfolio-section">
+        <p class="section-title">Portafolio de <span>trabajos</span></p>
+        <div class="portfolio-container">
+            <div class="portfolio-item proyect-1">
+                <div class="proyect-image">
+                    <img src="./images/BlogCafe.PNG" alt="proyect imgage">
+                </div>
+                <div class="proyect-info">
+                    <p>2021</p>
+                    <p>Blog Café</p>
+                    <p>Proyecto de maquetación de una página estática de un blog de café, usando las tecnologías HTML y CSS, además de la implementación de diseño responsivo Mobile first, del curso: Desarrollo Web Completo con HTML, CSS, JS, PHP Y MySQL, de Udemy, desarrollado en 2021.</p>
+                    <p>Click to: <a href="https://carlosbonillagalindo.github.io/blog-cafe/index.html">Visit site</a></p>
+                </div>
+            </div>
+            <div class="portfolio-item proyect-1">
+                <div class="proyect-image">
+                    <img src="./images/FrontendStore.PNG" alt="proyect imgage">
+                </div>
+                <div class="proyect-info">
+                    <p>2021</p>
+                    <p>Frontend Store</p>
+                    <p>Segundo proyecto de maquetación de página web de una tienda, correspondiente al curso Desarrollo Web Completo con HTML, CSS, JS, PHP Y MySQL, se usaron tecnologías HTML, CSS, diseño responsivo y uso de formularios.</p>
+                    <p>Click to: <a href="https://carlosbonillagalindo.github.io/frontend-store/index.html">Visit site</a></p>
+                </div>
+            </div>
+            <div class="portfolio-item proyect-1">
+                <div class="proyect-image">
+                    <img src="./images/GoogleClon.PNG" alt="proyect imgage">
+                </div>
+                <div class="proyect-info">
+                    <p>2022</p>
+                    <p>Google clon</p>
+                    <p>Proyecto correspondiente al curso: Curso práctico de HTML y CSS de la plataforma Platzi, fueron usadas las tecnologías HTML y CSS, el proyecto consiste en la creación de un clon de Google desde la observación de la página y el uso de los conocimientos del curso teórico de la misma plataforma de aprendizaje.</p>
+                    <p>Click to: <a href="https://carlosbonillagalindo.github.io/google-clon/">Visit site</a></p>
+                </div>
+            </div>
+            <div class="portfolio-item proyect-1">
+                <div class="proyect-image">
+                    <img src="./images/YardSale.PNG" alt="proyect imgage">
+                </div>
+                <div class="proyect-info">
+                    <p>Octubre 2022</p>
+                    <p>YardSale</p>
+                    <p>Segunda parte del curso: Frontend Developer de Platzi, el proyecto de la primera parte consiste en maquetar una página en HTML y CSS, de una tienda de segunda mano desde un diseño proporcionado en Figma, para la segunda parte se añade JavaScript para darle interacciones a la página.</p>
+                    <p>Click to: <a href="https://carlosbonillagalindo.github.io/curso-frontend-developer-javascript-practico-1/">Visit site</a></p>
+                </div>
+            </div>
+            <div class="portfolio-item proyect-1">
+                <div class="proyect-image">
+                    <img src="./images/Todos.PNG" alt="proyect imgage">
+                </div>
+                <div class="proyect-info">
+                    <p>Octubre 2022</p>
+                    <p>ToDos</p>
+                    <p>Proyecto del curso: Introducción a React de la plataforma Platzi, consiste en una aplicación que permite crear una lista de Tareas, es posible añadir, eliminar y marcar las tareas, se hace uso de HTML, CSS, JavaScript, REACT y Local Storage.</p>
+                    <p>Click to: <a href="https://carlosbonillagalindo.github.io/curso-introduccion-react/">Visit site</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact -->
+    <div class="contact-section">
+        <p class="section-title">Contacto y <span>Redes</span></p>
+        <div class="contact-container">
+            <div class="contact-item">
+                <a href="#">
+                    <div class="contact-icon">
+                        <img src="../icons/contacto.png" alt="">
+                    </div>
+                </a>
 
-
+                <div class="contact-info">
+                    <p>Teléfono</p>
+                    <p>2227760822</p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <a href="#">
+                    <div class="contact-icon">
+                        <img src="../icons/correo.png" alt="">
+                    </div>
+                </a>
+                <div class="contact-info">
+                    <p>Correo</p>
+                    <p>bonillagalindocarlos@gmail.com</p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <a href="https://www.linkedin.com/in/carlos-daniel-bonilla-galindo-38885823a/">
+                    <div class="contact-icon">
+                        <img src="../icons/linkedin.png" alt="icon LinkedIn">
+                    </div>
+                </a>
+                <div class="contact-info">
+                    <a href="https://www.linkedin.com/in/carlos-daniel-bonilla-galindo-38885823a/"><p>LinkedIn</p></a>
+                </div>
+            </div>
+            <div class="contact-item">
+                <a href="https://github.com/carlosBonillaGalindo">
+                    <div class="contact-icon">
+                        <img src="../icons/github.png" alt="">
+                    </div> 
+                </a>
+                <div class="contact-info">
+                    <a href="https://github.com/carlosBonillaGalindo"><p>GitHub</p></a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="footer-container">
+         <p>Carlos Daniel Bonilla Galindo</p>
+         <div class="footer-links">
+             <a  class="footer-icon" href="https://www.linkedin.com/in/carlos-daniel-bonilla-galindo-38885823a/">
+                 <img src="../icons/linkedin-white.png" alt="Icono de LinkedIn">
+             </a>
+             <a  class="footer-icon" href="https://github.com/carlosBonillaGalindo">
+                 <img src="../icons/github-white.png" alt="Icono de GitHub">
+             </a>
+         </div>
+         
+        </div>
+     </footer>
 </body>
 </html>

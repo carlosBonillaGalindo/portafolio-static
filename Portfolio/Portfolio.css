@@ -52,6 +52,7 @@ html{
     width: 100%;
     height: auto;
     overflow: hidden;
+    border: 1px solid var(--gray);
 }
 
 .proyect-image img{
@@ -73,11 +74,11 @@ html{
     color: var(--gray);
     margin-bottom: 24px;
 }
-.proyect-info p:nth-of-type(2), :nth-of-type(3){
+.proyect-info > p:nth-of-type(2), p> :nth-of-type(3){
     padding-bottom: 24px;
     border-bottom: 1px solid var(--light-gray);
 }
-.proyect-info p:nth-of-type(3){
+.proyect-info > p:nth-of-type(3){
     color: var(--black);
     font-weight:600;
 }
