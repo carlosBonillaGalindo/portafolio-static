@@ -19,6 +19,7 @@ html{
     font-family: 'Poppins', sans-serif;
 }
 .contact-section{
+    scroll-margin-top: 8rem ;
     padding-top: 8rem;
 }
 .section-title{
@@ -73,4 +74,10 @@ html{
     font-weight: 500;
     margin-bottom: 4px;
     text-transform: uppercase;
+}
+.contact-info a{
+    color: var(--black)
+}
+.contact-info a:hover{
+    border-bottom: 2px solid var(--gray);
 }

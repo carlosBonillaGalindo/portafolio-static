@@ -17,8 +17,10 @@
 html{
     font-size: 62.5%;
     font-family: 'Poppins', sans-serif;
+    scroll-snap-type: y proximity;
 }
 .about-section{
+    scroll-margin-top: 8rem ;
     padding-top: 8rem
 }
 .section-title{

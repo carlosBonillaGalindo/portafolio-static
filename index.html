@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./Portfolio/Portfolio.css">
     <link rel="stylesheet" href="./Contact/Contact.css">
     <link rel="stylesheet" href="./Footer/Footer.css">
+
 </head>
 <body>
     <!-- Barra de Navegación -->
@@ -19,34 +20,35 @@
         <a href="index.html">Carlos Bonilla</a>
         <ul>
             <li>
-                <a href="#">Inicio</a>
+                <a href="#home-section">Inicio</a>
             </li>
             <li>
-                <a href="#">Acerca de</a>
+                <a href="#about-section">Acerca de</a>
             </li>
             <li>
-                <a href="#">Portafolio</a>
+                <a href="#portfolio-section">Portafolio</a>
             </li>
             <li>
-                <a href="#">Contacto</a>
+                <a href="#contact-section">Contacto</a>
             </li>
         </ul>
         <div class="menu-icon">
         <a class="menu-icon" href="#">Menu</a>
     </nav>
     <!-- Home -->
-    <div class="home-section">
+    <div id="home-section" class="home-section">
         <div class="home-description">
             <h1>Carlos Daniel Bonilla Galindo</h1>
             <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus commodi, sequi illum saepe maiores maxime quaerat corporis ullam placeat dicta velit laborum nostrum dolore. Error ea facere accusantium optio. Repellendus?</p>
-            <button class="primary-button">Descargar CV</button>
+            <!-- <button class="primary-button">Descargar CV</button> -->
+            <a class="primary-button" href="CV-Carlos Daniel Bonilla Galindo.pdf" download="CV-CarlosDanielBonillaGalindo.pdf">Descargar CV</a>
         </div>
         <div class="home-portrait">
             <img src="./images/Retrato-blanco.png" alt="Personal-portrait">
         </div>
     </div>
     <!-- About -->
-    <div class="about-section">
+    <div id="about-section" class="about-section">
         <p class="section-title">Acerca <span>de</span></p>
         <div class="about-container about-mainInfo" >    
             <div class="about-extract">
@@ -141,7 +143,7 @@
         </div>
     </div>
     <!-- Portfolio -->
-    <div class="portfolio-section">
+    <div id="portfolio-section" class="portfolio-section">
         <p class="section-title">Portafolio de <span>trabajos</span></p>
         <div class="portfolio-container">
             <div class="portfolio-item proyect-1">
@@ -202,11 +204,11 @@
         </div>
     </div>
     <!-- Contact -->
-    <div class="contact-section">
+    <div id="contact-section" class="contact-section">
         <p class="section-title">Contacto y <span>Redes</span></p>
         <div class="contact-container">
             <div class="contact-item">
-                <a href="#">
+                <a href="tel:2227760822">
                     <div class="contact-icon">
                         <img src="../icons/contacto.png" alt="">
                     </div>
@@ -214,18 +216,18 @@
 
                 <div class="contact-info">
                     <p>Teléfono</p>
-                    <p>2227760822</p>
+                    <a href="tel:2227760822">2227760822</a>
                 </div>
             </div>
             <div class="contact-item">
-                <a href="#">
+                <a href="mailto:bonillagalindocarlos@gmail.com">
                     <div class="contact-icon">
                         <img src="../icons/correo.png" alt="">
                     </div>
                 </a>
                 <div class="contact-info">
                     <p>Correo</p>
-                    <p>bonillagalindocarlos@gmail.com</p>
+                    <a href="mailto:bonillagalindocarlos@gmail.com">bonillagalindocarlos@gmail.com</a>
                 </div>
             </div>
             <div class="contact-item">
@@ -254,7 +256,7 @@
     <!-- Footer -->
     <footer class="footer-section">
         <div class="footer-container">
-         <p>Carlos Daniel Bonilla Galindo</p>
+         <a class="name-footer" href="#home-section">Carlos Daniel Bonilla Galindo</a>
          <div class="footer-links">
              <a  class="footer-icon" href="https://www.linkedin.com/in/carlos-daniel-bonilla-galindo-38885823a/">
                  <img src="../icons/linkedin-white.png" alt="Icono de LinkedIn">

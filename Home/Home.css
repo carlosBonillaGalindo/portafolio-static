@@ -18,6 +18,8 @@ html{
 }
 
 .home-section{
+    padding-top: 8rem;
+    margin-top: 8rem;
     background-color: var(--black);
     display: flex;
     align-items: center;
@@ -57,9 +59,12 @@ html{
     font-size: large;
     font-weight: 300;
 }
+a{
+    text-decoration: none;
+}
 .primary-button{
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 500;
     cursor: pointer;
     margin: 5rem auto;
     border-radius: 30px;

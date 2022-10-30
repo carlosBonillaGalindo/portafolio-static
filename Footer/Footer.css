@@ -32,8 +32,12 @@ html{
     align-items: center;
     justify-content: space-between;
 }
-.footer-container p {
+.footer-container a {
     font-size: large;
+    color: white;
+}
+.name-footer:hover{
+    border-bottom: 2px solid var(--white);
 }
 .footer-links{
     display: flex;

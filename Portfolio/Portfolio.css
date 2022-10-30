@@ -19,6 +19,7 @@ html{
     font-family: 'Poppins', sans-serif;
 }
 .portfolio-section{
+    scroll-margin-top: 8rem ;
     padding-top: 8rem;
     background-color: var(--light-gray);
 }

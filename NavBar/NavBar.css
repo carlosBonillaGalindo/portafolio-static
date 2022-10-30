@@ -13,11 +13,18 @@
 }
 
 html{
+
     font-size: 62.5%;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    scroll-snap-type: y proximity;
 }
 
 nav {
+    z-index: 1;
+    position:fixed;
+    top: 0;
+    width: 100%;
     display: flex;
     background-color: var(--black);
     height: 8rem;
