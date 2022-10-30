@@ -57,6 +57,10 @@ html{
     width: 100%;
     color: var(--gray);
 }
+.about-extract p {
+    margin-bottom: 12px;
+}
+
 .about-data{
     width: 100%;
     margin-top: 4rem;

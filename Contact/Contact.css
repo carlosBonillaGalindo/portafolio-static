@@ -42,13 +42,13 @@ html{
     margin: 6rem auto;
     font-size: var(--md);
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 2rem;
 }
 .contact-item{
     height: 150px;
-    
     display: flex;
+    flex-direction: column;
     align-items: center;
     border: 1px solid var(--light-gray);
 }
@@ -56,7 +56,7 @@ html{
     display: inline-block;
     width: 50px;
     height: 50px;
-    margin-left: 4rem;
+    margin-top: 2rem;
 }
 .contact-icon img{
     width: 100%;
@@ -78,6 +78,22 @@ html{
 .contact-info a{
     color: var(--black)
 }
+
 .contact-info a:hover{
     border-bottom: 2px solid var(--gray);
+}
+
+@media (min-width: 700px) {
+    .contact-item{
+        height: 150px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .contact-icon{
+        margin-left: 4rem;
+    }
+    .contact-container{
+        grid-template-columns: repeat(auto-fill, minmax(440px, 1fr));
+    }
 }
