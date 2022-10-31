@@ -19,7 +19,6 @@ html{
 
 .home-section{
     padding-top: 8rem;
-    margin-top: 8rem;
     background-color: var(--black);
     display: flex;
     align-items: center;

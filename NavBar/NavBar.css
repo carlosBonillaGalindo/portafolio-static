@@ -49,6 +49,8 @@ nav ul{
 .menu-icon{
     display: block;
     font-size: 28px;
+    color: white;
+    cursor: pointer;
 }
 @media (min-width: 1024px) {
     .menu-icon{

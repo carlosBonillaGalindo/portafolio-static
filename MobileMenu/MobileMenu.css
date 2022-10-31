@@ -15,9 +15,12 @@ html{
     font-family: 'Poppins', sans-serif;
 }
 .mobile-menu {
-    margin-top: 8.1rem;
+    margin-top: 8rem; 
     background-color: var(--black);
     padding: 24px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 .mobile-menu a {
     font-size: var(--lg);
@@ -31,4 +34,13 @@ html{
 }
 .mobile-menu ul li {
     margin-bottom: 24px;
+}
+.inactive{
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    .mobile-menu{
+        display: none;
+    }
 }

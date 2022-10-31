@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="./Portfolio/Portfolio.css">
     <link rel="stylesheet" href="./Contact/Contact.css">
     <link rel="stylesheet" href="./Footer/Footer.css">
+    <link rel="stylesheet" href="./MobileMenu/MobileMenu.css">
+    <link rel="shortcut icon" href="./icons/letra-c.png">
 
 </head>
 <body>
@@ -33,8 +35,27 @@
             </li>
         </ul>
         <div class="menu-icon">
-        <a class="menu-icon" href="#">Menu</a>
+        <p class="menu-icon">Menu</p>
     </nav>
+    
+    <!-- Mobile Menu -->
+    <div class="mobile-menu inactive">
+        <ul>
+          <li>
+            <a href="#home-section">Inicio</a>
+          </li>
+          <li>
+            <a href="#about-section">Acerca de</a>
+          </li>
+          <li>
+            <a href="#portfolio-section">Portafolio</a>
+          </li>
+          <li>
+            <a href="#contact-section">Contacto</a>
+          </li>
+        </ul>
+    </div>
+
     <!-- Home -->
     <div id="home-section" class="home-section">
         <div class="home-description">
@@ -155,7 +176,7 @@
         <div class="portfolio-container">
             <div class="portfolio-item proyect-1">
                 <div class="proyect-image">
-                    <img src="./images/BlogCafe.PNG" alt="proyect imgage">
+                    <a href="https://carlosbonillagalindo.github.io/blog-cafe/index.html"><img src="./images/BlogCafe.PNG" alt="proyect imgage"></a>
                 </div>
                 <div class="proyect-info">
                     <p>2021</p>
@@ -166,7 +187,7 @@
             </div>
             <div class="portfolio-item proyect-1">
                 <div class="proyect-image">
-                    <img src="./images/FrontendStore.PNG" alt="proyect imgage">
+                    <a href="https://carlosbonillagalindo.github.io/frontend-store/index.html"><img src="./images/FrontendStore.PNG" alt="proyect imgage"></a>
                 </div>
                 <div class="proyect-info">
                     <p>2021</p>
@@ -177,7 +198,7 @@
             </div>
             <div class="portfolio-item proyect-1">
                 <div class="proyect-image">
-                    <img src="./images/GoogleClon.PNG" alt="proyect imgage">
+                    <a href="https://carlosbonillagalindo.github.io/google-clon/"><img src="./images/GoogleClon.PNG" alt="proyect imgage"></a>
                 </div>
                 <div class="proyect-info">
                     <p>2022</p>
@@ -188,7 +209,7 @@
             </div>
             <div class="portfolio-item proyect-1">
                 <div class="proyect-image">
-                    <img src="./images/YardSale.PNG" alt="proyect imgage">
+                    <a href="https://carlosbonillagalindo.github.io/curso-frontend-developer-javascript-practico-1/"><img src="./images/YardSale.PNG" alt="proyect imgage"></a> 
                 </div>
                 <div class="proyect-info">
                     <p>Octubre 2022</p>
@@ -199,7 +220,7 @@
             </div>
             <div class="portfolio-item proyect-1">
                 <div class="proyect-image">
-                    <img src="./images/Todos.PNG" alt="proyect imgage">
+                    <a href="https://carlosbonillagalindo.github.io/curso-introduccion-react/"><img src="./images/Todos.PNG" alt="proyect imgage"></a>
                 </div>
                 <div class="proyect-info">
                     <p>Octubre 2022</p>
@@ -217,7 +238,7 @@
             <div class="contact-item">
                 <a href="tel:2227760822">
                     <div class="contact-icon">
-                        <img src="../icons/contacto.png" alt="">
+                        <img src="./icons/contacto.png" alt="">
                     </div>
                 </a>
 
@@ -229,7 +250,7 @@
             <div class="contact-item">
                 <a href="mailto:bonillagalindocarlos@gmail.com">
                     <div class="contact-icon">
-                        <img src="../icons/correo.png" alt="">
+                        <img src="./icons/correo.png" alt="">
                     </div>
                 </a>
                 <div class="contact-info">
@@ -240,7 +261,7 @@
             <div class="contact-item">
                 <a href="https://www.linkedin.com/in/carlos-daniel-bonilla-galindo-38885823a/">
                     <div class="contact-icon">
-                        <img src="../icons/linkedin.png" alt="icon LinkedIn">
+                        <img src="./icons/linkedin.png" alt="icon LinkedIn">
                     </div>
                 </a>
                 <div class="contact-info">
@@ -250,7 +271,7 @@
             <div class="contact-item">
                 <a href="https://github.com/carlosBonillaGalindo">
                     <div class="contact-icon">
-                        <img src="../icons/github.png" alt="">
+                        <img src="./icons/github.png" alt="">
                     </div> 
                 </a>
                 <div class="contact-info">
@@ -266,14 +287,15 @@
          <a class="name-footer" href="#home-section">Carlos Daniel Bonilla Galindo</a>
          <div class="footer-links">
              <a  class="footer-icon" href="https://www.linkedin.com/in/carlos-daniel-bonilla-galindo-38885823a/">
-                 <img src="../icons/linkedin-white.png" alt="Icono de LinkedIn">
+                 <img src="./icons/linkedin-white.png" alt="Icono de LinkedIn">
              </a>
              <a  class="footer-icon" href="https://github.com/carlosBonillaGalindo">
-                 <img src="../icons/github-white.png" alt="Icono de GitHub">
+                 <img src="./icons/github-white.png" alt="Icono de GitHub">
              </a>
          </div>
          
         </div>
      </footer>
+     <script src="./main.js"></script>
 </body>
 </html>
